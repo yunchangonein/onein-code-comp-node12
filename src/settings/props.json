@@ -1,0 +1,1 @@
+{"dataGroups":[{"label":"标题","type":"expression","propsKey":"todoTitle","defaultValue":"代办列表","groups":""}],"eventGroups":[{"name":"代办新增事件","key":"addTodo","triggerType":"click"}],"packages":[{"name":"@vueuse/core","version":"10.3.0"},{"name":"element-plus","version":"2.3.8"},{"name":"vue","version":"3.2.13"}]}
