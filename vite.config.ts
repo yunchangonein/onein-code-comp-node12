@@ -17,6 +17,9 @@ export default defineConfig(({ mode }) => {
   }
   return {
     plugins: [vue()],
+    define: {
+      "process.env": process.env
+    },
     build: {
       lib: {
         entry: resolve(__dirname, "src/lib/index.ts"),
